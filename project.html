@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- כותרת קבועה להכל -->
+      <div id="header">
+        <div>
+          <i class="material-icons edit">add_circle</i>
+          <i class="material-icons home">home</i>
+        </div>
+        <div>Inventory Managment</div>
+      </div>
+
+      <!-- עמוד ראשי -->
+      <div id="main1">
+        <!-- תפריט חיפוש ומיון -->
+        <div id="navbar">
+          <!-- כפתורים -->
+          <div id="navbuttons">
+            <button id="allbuttons">all buttons</button>
+          </div>
+
+          <!-- מנוע חיפוש קטן -->
+          <div class="search-wrapper">
+            <label for="search">search</label>
+            <input type="text" id="search" placeholder="search" />
+          </div>
+        </div>
+        <!-- כותרת -->
+        <h1 id="hproducts">Products:</h1>
+
+        <!-- מוצרים -->
+        <div id="products"></div>
+      </div>
+
+      <!-- עמוד מוצר -->
+      <div id="main2">
+        <!-- כותרת עם כפתורים -->
+        <div id="h1productpage">
+          <div>product page</div>
+          <div>
+            <button class="home material-icons">home</button>
+            <button class="material-icons">edit</button>
+            <button class="home material-icons">arrow_back</button>
+          </div>
+        </div>
+        <!-- תכלס עמוד מוצר -->
+        <div id="product"></div>
+      </div>
+
+      <!-- עמוד עריכת מוצר -->
+      <div id="main3">
+        <div id="heditproduct">
+          <h1>Edit Product</h1>
+          <button class="home material-icons">home</button>
+          <button class="home material-icons">arrow_back</button>
+        </div>
+      </div>
+      <div id="footer">
+        <h3>Technical Support</h3>
+        <i class="material-icons">phone</i>
+        <p>05454554545454</p>
+      </div>
+    </div>
+    <script type="module" src="project.js"></script>
+  </body>
+</html>
