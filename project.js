@@ -211,7 +211,7 @@
 //פונקמיה שתשיג לי data מהשרת
 async function getData() {
   try {
-    const response = await fetch("http://localhost:260/data");
+    const response = await fetch("http://remarkable-biscochitos-a0b95b/data");
     if (!response.ok) {
       throw Error("error");
     } else {
